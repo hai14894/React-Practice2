@@ -1,7 +1,15 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import MetaData from './metadata'
 
+const Page = () =>{
+    return (
+        <>
+            <MetaData/>
+        </>
+    )
+}
 ReactDOM.render (
-    <h1>hello</h1>,
+    <Page/>,
     document.querySelector("#root")
 )
