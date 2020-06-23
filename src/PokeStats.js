@@ -1,17 +1,14 @@
 import React from 'react'
+import AttackStat from './Atk-stat'
+import DefenseStat from './Def-stat'
+import StrengthStat from './Str-stat'
 
-const PokeStats = () => {
+const PokeStats = (props) => {
     return (
                 <div className="poke-stats">
-                    <div className="stat">
-                        <strong>attack</strong>: 49
-                    </div>
-                    <div className="stat">
-                        <strong>defense</strong>: 33
-                    </div>
-                    <div className="stat">
-                        <strong>strength</strong>: 67
-                    </div>
+                    <AttackStat attStat={props.attStat}/>
+                    <DefenseStat/>
+                    <StrengthStat/>
                 </div>
     )
 }
