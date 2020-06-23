@@ -1,11 +1,11 @@
 import React from 'react'
 
-const PokeInfo = () =>{
+const PokeInfo = (props) =>{
     return (
                 <div className="poke-info">
-                    <div className="types">grass, poison</div>
-                    <div className="height">30cm</div>
-                    <div className="weight">15kg</div>
+                    <div className="types">{props.type}</div>
+                    <div className="height">{props.height}</div>
+                    <div className="weight">{props.weight}</div>
                 </div>
     )
 }

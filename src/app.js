@@ -10,6 +10,9 @@ const App = () => {
                 attStat="40"
                 defStat= "24"
                 strStat= "52"
+                type= "grass, poison"
+                height="20cm"
+                weight="12kgs"
             />
             <Poke
                 name="Pikachu"
@@ -17,6 +20,9 @@ const App = () => {
                 attStat="45"
                 defStat="42"
                 strStat= "39"
+                type= "electric"
+                height="24cm"
+                weight="15kgs"
                 />
             <Poke 
                 name="Charmander" 
@@ -24,6 +30,9 @@ const App = () => {
                 attStat="50"
                 defStat="29"
                 strStat= "55"
+                type= "fire"
+                height="30cm"
+                weight="32kgs"
                 />
             
     </div>

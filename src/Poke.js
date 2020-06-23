@@ -7,10 +7,14 @@ const Poke = (props) =>{
     return (
             <div className="poke">
                 <div className="poke-image" >
-                    <img height="100px" src={props.imgLink} />
+                    <img height="100px" src={props.imgLink}/>
                 </div>
         
-                <PokeInfo/>
+                <PokeInfo 
+                type={props.type}
+                height= {props.height}
+                weight= {props.weight}
+                />
                 <div className="poke-name">{props.name}</div>
                 <PokeStats 
                 attStat={props.attStat}
