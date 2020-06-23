@@ -7,8 +7,8 @@ const PokeStats = (props) => {
     return (
                 <div className="poke-stats">
                     <AttackStat attStat={props.attStat}/>
-                    <DefenseStat/>
-                    <StrengthStat/>
+                    <DefenseStat defStat={props.defStat}/>
+                    <StrengthStat strStat={props.strStat}/>
                 </div>
     )
 }

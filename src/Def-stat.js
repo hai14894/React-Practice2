@@ -1,9 +1,9 @@
 import React from 'react'
 
-const DefenseStat = () => {
+const DefenseStat = (props) => {
     return (
         <div className="stat">
-            <strong>defense</strong>: 33
+            <strong>defense</strong>: {props.defStat}
         </div>
     )
 }

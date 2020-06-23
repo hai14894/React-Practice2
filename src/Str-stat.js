@@ -1,9 +1,9 @@
 import React from 'react'
 
-const StrengthStat = () => {
+const StrengthStat = (props) => {
     return (
         <div className="stat">
-            <strong>strength</strong>: 67
+            <strong>strength</strong>: {props.strStat}
         </div>
     )
 }

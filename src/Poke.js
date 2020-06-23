@@ -12,7 +12,11 @@ const Poke = (props) =>{
         
                 <PokeInfo/>
                 <div className="poke-name">{props.name}</div>
-                <PokeStats attStat={props.attStat}/>
+                <PokeStats 
+                attStat={props.attStat}
+                defStat={props.defStat}
+                strStat={props.strStat}
+                />
             </div>
     )
 }
