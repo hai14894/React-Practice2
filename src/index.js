@@ -1,19 +1,8 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import CardHeader from './card-header'
-import CardDescription from "./card-description"
-import CardBtn from "./card-btn"
+import React from  'react'
+import ReactDOM from 'react-dom'
+import App from './app'
 
-const Page = () =>{
-    return (
-        <>
-            <CardHeader/>
-            <CardDescription/>
-            <CardBtn/>
-        </>
-    )
-}
 ReactDOM.render (
-    <Page/>,
-    document.querySelector("#root")
+    <App />,
+    document.querySelector('#root')
 )
